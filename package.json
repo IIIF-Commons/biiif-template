@@ -4,7 +4,7 @@
   "description": "A template for creating IIIF manifests/collections with biiif",
   "main": "index.js",
   "scripts": {
-    "build": "npx biiif collection -u https://biiif-template.netlify.app/collection"
+    "build": "npx biiif collection -u https://[sitename].netlify.app"
   },
   "repository": {
     "type": "git",
