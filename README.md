@@ -14,7 +14,7 @@ A template for creating IIIF manifests/collections with [biiif](https://github.c
 6. Underneath your site name, where it says "Deploys from GitHub", click on the Github link to visit your newly generated repository
 7. Click on `package.json`
 8. Click on the "Edit this file" pencil in the top right corner
-9. Where it says `"build": "npx biiif collection -u https://[sitename].netlify.app"`, paste your netlify site name to replace `[sitename]`.
+9. Where it says `"build": "npx biiif collection -u https://sitename.netlify.app"`, paste your netlify site name to replace `sitename`.
 10. It should now read something like `"build": "npx biiif collection -u https://confident-goldstine-3646b6.netlify.app"`
 11. Scroll down and commit your changes
 12. Wait a few moments for your netlify site to redeploy, then visit `https://confident-goldstine-3646b6.netlify.app/index.json`. This is your published IIIF manifest
