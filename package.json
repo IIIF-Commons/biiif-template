@@ -1,0 +1,19 @@
+{
+  "name": "biiif-template",
+  "version": "1.0.0",
+  "description": "A template for creating IIIF manifests/collections with biiif",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx biiif collection -u https://biiif-template.netlify.app/collection"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edsilv/biiif-template.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/edsilv/biiif-template/issues"
+  },
+  "homepage": "https://github.com/edsilv/biiif-template#readme"
+}
