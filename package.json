@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/edsilv/biiif-template/issues"
   },
-  "homepage": "https://github.com/edsilv/biiif-template#readme"
+  "homepage": "https://github.com/edsilv/biiif-template#readme",
+  "dependencies": {
+    "biiif-cli": "^0.1.23"
+  }
 }
