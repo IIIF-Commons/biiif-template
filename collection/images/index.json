@@ -1,0 +1,65 @@
+{
+  "@context": [
+    "http://www.w3.org/ns/anno.jsonld",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "id": "https://sitename.netlify.app/images/index.json",
+  "type": "Manifest",
+  "items": [
+    {
+      "id": "https://sitename.netlify.app/images/index.json/canvas/0",
+      "type": "Canvas",
+      "items": [
+        {
+          "id": "https://sitename.netlify.app/images/index.json/canvas/0/annotationpage/0",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://sitename.netlify.app/images/index.json/canvas/0/annotation/0",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://sitename.netlify.app/images/_vincent/vincent.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "label": {
+                  "@none": [
+                    "_vincent"
+                  ]
+                },
+                "width": 3141,
+                "height": 4096,
+                "service": [
+                  {
+                    "@id": "https://sitename.netlify.app/images/_vincent/+tiles",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ]
+              },
+              "target": "https://sitename.netlify.app/images/index.json/canvas/0"
+            }
+          ]
+        }
+      ],
+      "label": {
+        "@none": [
+          "_vincent"
+        ]
+      },
+      "width": 3141,
+      "height": 4096,
+      "thumbnail": [
+        {
+          "id": "https://sitename.netlify.app/images/_vincent/thumb.jpg",
+          "type": "Image"
+        }
+      ]
+    }
+  ],
+  "label": {
+    "@none": [
+      "Vincent"
+    ]
+  }
+}

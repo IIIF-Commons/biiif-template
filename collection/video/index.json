@@ -1,0 +1,49 @@
+{
+  "@context": [
+    "http://www.w3.org/ns/anno.jsonld",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "id": "https://sitename.netlify.app/video/index.json",
+  "type": "Manifest",
+  "items": [
+    {
+      "id": "https://sitename.netlify.app/video/index.json/canvas/0",
+      "type": "Canvas",
+      "items": [
+        {
+          "id": "https://sitename.netlify.app/video/index.json/canvas/0/annotationpage/0",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://sitename.netlify.app/video/index.json/canvas/0/annotation/0",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://sitename.netlify.app/video/_bigbuckbunny/bbb-butterfly.mp4",
+                "type": "Video",
+                "format": "video/mp4",
+                "label": {
+                  "@none": [
+                    "_bigbuckbunny"
+                  ]
+                }
+              },
+              "target": "https://sitename.netlify.app/video/index.json/canvas/0"
+            }
+          ]
+        }
+      ],
+      "label": {
+        "@none": [
+          "_bigbuckbunny"
+        ]
+      },
+      "duration": 10
+    }
+  ],
+  "label": {
+    "@none": [
+      "Big Buck Bunny"
+    ]
+  }
+}

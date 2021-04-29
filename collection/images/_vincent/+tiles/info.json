@@ -1,0 +1,29 @@
+{
+  "@context": "http://iiif.io/api/image/2/context.json",
+  "@id": "https://sitename.netlify.app/images/_vincent/+tiles",
+  "profile": [
+    "http://iiif.io/api/image/2/level0.json",
+    {
+      "formats": [
+        "jpg"
+      ],
+      "qualities": [
+        "default"
+      ]
+    }
+  ],
+  "protocol": "http://iiif.io/api/image",
+  "tiles": [
+    {
+      "scaleFactors": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "width": 256
+    }
+  ],
+  "width": 3141,
+  "height": 4096
+}
