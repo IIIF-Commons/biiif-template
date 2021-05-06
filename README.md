@@ -35,7 +35,25 @@ A template for creating IIIF manifests/collections with [biiif](https://github.c
 <details>
   <summary>Vercel Instructions</summary>
   <ol>
-    <li>Click "Deploy"</li>
-    <li>coming soon...</li>
+    <li>Click Deploy</li>
+    <li>Enter a name for your project, e.g. "my-cool-iiif"</li>
+    <li>Click Continue</li>
+    <li>Choose Github</li>
+    <li>Enter a name for your repository, e.g. "my-cool-iiif"</li>
+    <li>Optionally select Create Private Git Repository</li>
+    <li>Click Continue</li>
+    <li>On the Import Project screen leave it on the default settings click Continue</li>
+    <li>Optionally specify a project name</li>
+    <li>Expand Build and Output Settings In Output directory, enter "collection"</li>
+    <li>Wait for the deploy to complete</li>
+    <li>Click Open Dashboard</li>
+    <li>Copy your project name, e.g. "my-cool-iiif"</li>
+    <li>Underneath your project name, where it has a Github icon, click on the Github link to visit your newly generated repository</li>
+    <li>Click on `package.json`</li>
+    <li>Click on the "Edit this file" pencil in the top right corner</li>
+    <li>Where it says `"build": "npx biiif collection -u https://sitename.netlify.app"`, paste your vercel project name to replace `sitename`, and replace `netlify` with `vercel`.</li>
+    <li>It should now read something like `"build": "npx biiif collection -u https://my-cool-iiif.vercel.app"`</li>
+    <li>Scroll down and commit your changes</li>
+    <li>Wait a few moments for your vercel site to redeploy, then visit `https://my-cool-iiif.vercel.app/index.json`. This is your published IIIF manifest</li>
   </ol>
 </details>
