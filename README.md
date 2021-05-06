@@ -28,7 +28,7 @@ A template for creating IIIF manifests/collections with [biiif](https://github.c
   </ol>
 </details>
 
-## Vercel (work in progress)
+## Vercel
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Fedsilv%2Fbiiif-template&project-name=my-cool-iiif&repo-name=my-cool-iiif)
 
