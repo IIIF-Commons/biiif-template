@@ -13,15 +13,15 @@ A template for creating IIIF manifests/collections with [biiif](https://github.c
 <details>
   <summary>Netlify Instructions</summary>
   <ol>
-    <li>Click "Deploy to Netlify"</li>
-    <li>Click "Connect to Github"</li>
+    <li>Click Deploy to Netlify</li>
+    <li>Click Connect to Github</li>
     <li>Choose a name for your new repository, e.g. "my-cool-iiif"</li>
-    <li>Click "Save and Deploy"</li>
+    <li>Click Save and Deploy</li>
     <li>Copy the auto-generated name for your site, e.g. `confident-goldstine-3646b6`</li>
-    <li>Underneath your site name, where it says "Deploys from GitHub", click on the Github link to visit your newly generated repository</li>
+    <li>Underneath your site name, where it says Deploys from GitHub, click on the Github link to visit your newly generated repository</li>
     <li>Click on `package.json`</li>
     <li>Click on the "Edit this file" pencil in the top right corner</li>
-    <li>Where it says `"build": "npx biiif collection -u https://sitename.netlify.app"`, paste your netlify site name to replace `sitename`.</li>
+    <li>Where it says `"build": "npx biiif collection -u https://sitename.platform.app"`, paste your netlify site name to replace `sitename`, and replace `platform` with `netlify`</li>
     <li>It should now read something like `"build": "npx biiif collection -u https://confident-goldstine-3646b6.netlify.app"`</li>
     <li>Scroll down and commit your changes</li>
     <li>Wait a few moments for your netlify site to redeploy, then visit `https://confident-goldstine-3646b6.netlify.app/index.json`. This is your published IIIF manifest</li>
@@ -51,7 +51,7 @@ A template for creating IIIF manifests/collections with [biiif](https://github.c
     <li>Underneath your project name, where it has a Github icon, click on the Github link to visit your newly generated repository</li>
     <li>Click on `package.json`</li>
     <li>Click on the "Edit this file" pencil in the top right corner</li>
-    <li>Where it says `"build": "npx biiif collection -u https://sitename.netlify.app"`, paste your vercel project name to replace `sitename`, and replace `netlify` with `vercel`.</li>
+    <li>Where it says `"build": "npx biiif collection -u https://sitename.platform.app"`, paste your vercel project name to replace `sitename`, and replace `platform` with `vercel`.</li>
     <li>It should now read something like `"build": "npx biiif collection -u https://my-cool-iiif.vercel.app"`</li>
     <li>Scroll down and commit your changes</li>
     <li>Wait a few moments for your vercel site to redeploy, then visit `https://my-cool-iiif.vercel.app/index.json`. This is your published IIIF manifest</li>
