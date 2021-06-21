@@ -2,6 +2,9 @@
   for = "/*"
 [headers.values]
   Access-Control-Allow-Origin = "*"
+  cache-control = '''
+	max-age=86400,
+	public'''
 
 [build]
   base = ""
