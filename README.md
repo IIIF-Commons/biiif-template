@@ -19,6 +19,7 @@ A template for creating IIIF manifests/collections with [biiif](https://github.c
   2. Click Connect to Github
   3. Choose a name for your new repository, e.g. "my-cool-iiif"
   4. Click Save and Deploy
+  5. Wait for the deploy to complete
 
 ## Vercel
 
