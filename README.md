@@ -13,7 +13,7 @@ A template for creating IIIF manifests/collections with [biiif](https://github.c
 
 ## Netlify
 
-[![Deploy with Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/edsilv/biiif-template)
+[![Deploy with Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/iiif-commons/biiif-template)
 
   1. Click Deploy to Netlify
   2. Click Connect to Github
@@ -23,7 +23,7 @@ A template for creating IIIF manifests/collections with [biiif](https://github.c
 
 ## Vercel
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Fedsilv%2Fbiiif-template)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Fiiif-commons%2Fbiiif-template)
 
   1. Click Deploy
   2. Enter a name for your repository, e.g. "my-cool-iiif"
