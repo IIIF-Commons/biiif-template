@@ -16,3 +16,8 @@
 [build.environment]
   SHOW_NETLIFY_BADGE = "true"
   NODE_VERSION = "14"
+
+# redirect to index.json
+[[redirects]]
+  from = "/*"
+  to = "/index.json"
