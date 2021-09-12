@@ -33,12 +33,10 @@ A template for creating IIIF manifests/collections with [biiif](https://github.c
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Fedsilv%2Fbiiif-template)
 
   1. Click Deploy
-  2. Enter a name for your project, e.g. "my-cool-iiif"
-  3. Click Continue
-  4. Choose Github
-  5. Enter a name for your repository, e.g. "my-cool-iiif"
-  6. Optionally select Create Private Git Repository
-  7. Click Continue
+  2. Enter a name for your repository, e.g. "my-cool-iiif"
+  3. Optionally select Create Private Git Repository
+  4. Click Continue
+  5. Choose a team, or skip
   8. On the Import Project screen leave it on the default settings and click Continue
   9. Optionally specify a project name
   10. Expand Build and Output Settings In Output directory, enter "collection"
