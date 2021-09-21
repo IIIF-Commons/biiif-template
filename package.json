@@ -1,6 +1,6 @@
 {
   "name": "biiif-template",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A template for creating IIIF manifests/collections with biiif",
   "main": "index.js",
   "scripts": {
@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/edsilv/biiif-template#readme",
   "dependencies": {
-    "biiif-cli": "1.0.3"
+    "biiif-cli": "1.0.4"
   }
 }
