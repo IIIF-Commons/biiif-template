@@ -6,6 +6,12 @@
 
 A template for creating IIIF manifests/collections with [biiif](https://github.com/edsilv/biiif/)
 
+## Video Tutorials
+
+- [How to use biiif-cli: simple demo](https://youtu.be/XgKysYYCAyU)
+- [How to use biiif-template to generate IIIF manifests with tiled images](https://www.youtube.com/watch?v=OosGplTKwJk)
+- [How to create IIIF manifests for Sketchfab objects](https://www.youtube.com/watch?v=v3_e2dW2ECE)
+
 ## How to deploy
 
 - [Vercel](#Vercel)
