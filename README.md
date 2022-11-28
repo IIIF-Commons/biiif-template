@@ -36,3 +36,6 @@ A template for creating IIIF manifests/collections with [biiif](https://github.c
   4. Click Save and Deploy
   5. Wait for the deploy to complete
 
+## Tips and Tricks
+
+Use [Rapid Compact](https://app.rapidcompact.com/) to compress your 3D models.
