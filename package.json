@@ -1,6 +1,6 @@
 {
   "name": "biiif-template",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A template for creating IIIF manifests/collections with biiif",
   "main": "index.js",
   "scripts": {
