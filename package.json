@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/edsilv/biiif-template#readme",
   "dependencies": {
-    "biiif-cli": "1.0.6"
+    "biiif-cli": "1.0.7"
   }
 }
